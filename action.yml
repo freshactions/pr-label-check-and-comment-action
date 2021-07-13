@@ -10,6 +10,6 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'public.ecr.aws/i1i0w6p5/pr-comment'
+  image: 'samof76/pr-comment'
   args:
     - ${{ inputs.path }}
